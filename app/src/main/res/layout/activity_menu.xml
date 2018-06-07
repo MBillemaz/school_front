@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MenuActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btn_map"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/green"
+                android:contentDescription="map"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/map_icone" />
+
+            <ImageButton
+                android:id="@+id/btn_list"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/orange"
+                android:contentDescription="list"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/list_icone" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/btn_add"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:background="@color/purple"
+                android:contentDescription="add"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/add_icone" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/btn_config"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:contentDescription="config"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/config_icone" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

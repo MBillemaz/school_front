@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FinalProject_MBI</string>
+    <string name="main_name">Formulaire de connexion</string>
+    <string name="remember">Se souvenir de moi</string>
+    <string name="empty_champ">Champ requis</string>
+    <string name="ip">thibault01.com</string>
+    <string name="port">8081</string>
+    <string name="badUser">Utilisateur non autorisé</string>
+    <string name="send">Envoyer</string>
+    <string name="reset">Reset</string>
+    <string name="username">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="validate">Valider</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="schoolName">Nom</string>
+    <string name="schoolAddress">Adresse</string>
+    <string name="schoolCode">Code postal</string>
+    <string name="schoolCity">Commune</string>
+    <string name="schoolTimes">Horaires d\'ouverture</string>
+    <string name="schoolPhone">Numéro de téléphone</string>
+    <string name="schoolMail">E-mail</string>
+    <string name="schoolLat">Latitude</string>
+    <string name="schoolLong">Longitude</string>
+    <string name="schoolNbStud">Nombre d\'étudiants</string>
+    <string name="schoolType">Type</string>
+
+    <string-array name="type_array">
+        <item>public</item>
+        <item>private</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
